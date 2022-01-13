@@ -291,6 +291,7 @@
       <div class="sends">
         <h2>Transacciones Generadas con la compra de boletos</h2> 
         <table style="border: 1px solid;">
+
           <thead>
             <tr>
               
@@ -300,16 +301,6 @@
             </tr>
             
           </thead>
-          <tbody>
-            <tr *ngFor="let el of elementos; let i = index"  class="item" #item>         
-              <td>{{el.transactionHash}}</td>
-              <td>{{el.blockNumber}}</td>
-              <td>{{el.amount}}</td>     
-              <td>{{el.rewardPoints}}</td>     
-              <td>{{el.totalRewardPoints}}</td>   
-              <td>{{el.accountAddress}}</td>     
-            </tr>
-          </tbody>
         </table>
       </div>
     </div>
